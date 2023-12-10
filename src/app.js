@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./pages/home/home";
+import Home from "./pages/home";
 import Search from "./pages/search/search";
 import Create from "./pages/create/create";
 import Recipe from "./pages/recipe/recipe";

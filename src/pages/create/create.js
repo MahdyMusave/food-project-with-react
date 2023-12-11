@@ -41,7 +41,7 @@ const Create = () => {
     <>
       <div className="container">
         <div
-          className="form"
+          className="food_form"
           style={{
             border: "none",
             padding: "100px 10px",

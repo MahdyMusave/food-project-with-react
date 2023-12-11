@@ -26,7 +26,7 @@
   background: #fff8f8;
   color: #333;
 }
-form{
+.food_form form{
   background-color: #f8f8f837;
   justify-content: center;
   align-items: center;
@@ -36,12 +36,12 @@ form{
   margin: auto;
 
 }
-form>div{
+.food_form form>div{
   margin-top: 15px;
   border: none;
   width: 80%;
 }
-form>div>label{
+.food_form form>div>label{
   font-size: 23px;
   margin-right: 10px;
   font-weight: bolder;
@@ -50,15 +50,15 @@ form>div>label{
   font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
-form .ingredient{
+.food_form form .ingredient{
 
 }
-form> div >input{
+.food_form form> div >input{
   padding: 10px;
   width: 75%;
   float: right;
 }
-form .ingredient label{
+.food_form form .ingredient label{
 font-size: 23px;
   margin-right: 10px;
   font-weight: bolder;
@@ -66,13 +66,21 @@ font-size: 23px;
   border: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-form .ingredient input{
+.food_form form .ingredient input{
   padding: 10px !important;
   width: 75% !important;
 }
-form textarea{
+.food_form form textarea{
   width: 95%;
   border: 1px solid green;
   margin-top: 15px;
   height: 250px;
+}
+.form-search input{
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  width: 300px;
+
 }

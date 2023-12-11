@@ -1,20 +1,23 @@
 import React from "react";
-import Home from "./pages/home";
+import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/home";
 import Search from "./pages/search/search";
 import Create from "./pages/create/create";
 import Recipe from "./pages/recipe/recipe";
-import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
-import "./app.css"
+import Navbar from "./components/navbar";
+
+import "./app.css";
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <Navbar />
         <div className="wrapper">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/search" element={<Search />} />
             <Route path="/create" element={<Create />} />
-            <Route path="/recipe" element={<Recipe />} />
+            <Route path="/recipe/:id" element={<Recipe />} />
           </Routes>
         </div>
       </BrowserRouter>

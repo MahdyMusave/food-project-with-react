@@ -23,6 +23,56 @@
   border-radius: 4px;
 }
 .navbar a:last-child:hover {
-  background: #fff;
+  background: #fff8f8;
   color: #333;
+}
+form{
+  background-color: #f8f8f837;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 550px;
+  width:95%;
+  margin: auto;
+
+}
+form>div{
+  margin-top: 15px;
+  border: none;
+  width: 80%;
+}
+form>div>label{
+  font-size: 23px;
+  margin-right: 10px;
+  font-weight: bolder;
+  color: #403f3fca;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+form .ingredient{
+
+}
+form> div >input{
+  padding: 10px;
+  width: 75%;
+  float: right;
+}
+form .ingredient label{
+font-size: 23px;
+  margin-right: 10px;
+  font-weight: bolder;
+  color: #403f3fca;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form .ingredient input{
+  padding: 10px !important;
+  width: 75% !important;
+}
+form textarea{
+  width: 95%;
+  border: 1px solid green;
+  margin-top: 15px;
+  height: 250px;
 }
